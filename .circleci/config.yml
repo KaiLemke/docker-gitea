@@ -136,7 +136,7 @@ workflows:
             - build_arm32v6
             - build_arm64v8
           <<: *tag_filter
-      - badge:
-          requires:
-            - manifest
-          <<: *tag_filter
+      # - badge:
+      #     requires:
+      #       - manifest
+      #     <<: *tag_filter
