@@ -97,12 +97,13 @@ jobs:
       - deploy:
           name: Generate multiarch manifest and push to dockerhub
           command: make manifest
-  badge:
-    <<: *defaults
-    steps:
-      - run:
-          name: Call microbadger's webhook
-          command: curl -X POST https://hooks.microbadger.com/images/whatever4711/gitea/2oxGzMVZlKSBC9xolckllXvTm4E=
+  # CHANGEME
+  # badge:
+  #   <<: *defaults
+  #   steps:
+  #     - run:
+  #         name: Call microbadger's webhook
+  #         command: curl -X POST https://hooks.microbadger.com/images/whatever4711/gitea/2oxGzMVZlKSBC9xolckllXvTm4E=
 
 tag_filter: &tag_filter
   filters:

@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/KaiLemke/docker-gitea.svg?style=svg)](https://circleci.com/gh/KaiLemke/docker-gitea)
 
-[![](https://images.microbadger.com/badges/version/KaiLemke/gitea.svg)](https://microbadger.com/images/KaiLemke/gitea "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/KaiLemke/gitea.svg)](https://microbadger.com/images/KaiLemke/gitea "Get your own image badge on microbadger.com")
+<!--- [![](https://images.microbadger.com/badges/version/KaiLemke/gitea.svg)](https://microbadger.com/images/KaiLemke/gitea "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/KaiLemke/gitea.svg)](https://microbadger.com/images/KaiLemke/gitea "Get your own image badge on microbadger.com") --->
 
 # Gitea in a Container
 
